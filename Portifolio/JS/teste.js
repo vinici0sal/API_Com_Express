@@ -1,6 +1,6 @@
-export var frese_do_dia = {
-    Mensagem : "Bom dia",
-    Mensagem2 : "Tudo bem?"
+export var calculo = function(peso, altura){
+    var Imc = peso / (altura * altura)
+    return Imc;
 }
 
-export default frese_do_dia
+export default calculo

@@ -1,5 +1,6 @@
 import exp from 'express'
 import read from 'readline-sync'
+import calculo  from './teste.js';
 
 const app = exp();
 var data = new Date();
@@ -13,9 +14,9 @@ if(resposta == "1"){
         var altura = req.query.altura;
         var peso = req.query.peso;
     
-        let imc = peso / (altura * altura);
+        var restul = calculo(peso, altura)
     
-        console.log({imc : imc});
+        console.log({imc : restul});
     })
     
     app.listen(8080, () => {
