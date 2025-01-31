@@ -9,15 +9,15 @@ var data = new Date();
         var peso = req.query.peso
         var altura = req.query.altura
 
-        var imc = peso + altura
+        var imc = peso / (altura*altura)
         
-        console.log({imc : imc })
+        console.log({imc : imc})
 
     })
     
     app.listen(8080, () => {
         let min = data.getMinutes()
         let date = data.getHours() + ':' + min; 
-        console.log(`Servidor conectado as ${date} da manhã` )
+        console.log(`Servidor conectado as ${date}` )
         }
     )
