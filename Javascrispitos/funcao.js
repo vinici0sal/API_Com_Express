@@ -6,6 +6,7 @@ export var funcao_soma = function(peso, altura){
     return imc;
 }
 
+
 export default funcao_soma(peso, altura)
 
 
