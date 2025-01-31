@@ -9,7 +9,7 @@ var data = new Date();
         var peso = req.query.peso
         var altura = req.query.altura
 
-        var imc = peso / (altura*altura)
+        var imc = funcao_soma(peso, altura)
         
         console.log({imc : imc})
 

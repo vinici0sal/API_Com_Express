@@ -1,8 +1,11 @@
+var peso;
+var altura;
+
 export var funcao_soma = function(peso, altura){
-    imc = peso / (altura*altura)
+    let imc = peso / (altura*altura)
     return imc;
 }
 
-export default {funcao_soma}
+export default funcao_soma(peso, altura)
 
 
