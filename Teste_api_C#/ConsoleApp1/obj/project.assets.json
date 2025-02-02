@@ -8,25 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Raizd\\.nuget\\packages\\": {}
+    "C:\\Users\\vinicius.loreto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\vinicius.loreto\\OneDrive - CARAJAS HOME CENTER\\Documentos\\GitHub\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Raizd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\vinicius.loreto\\OneDrive - CARAJAS HOME CENTER\\Documentos\\GitHub\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\vinicius.loreto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinicius.loreto\\OneDrive - CARAJAS HOME CENTER\\Documentos\\GitHub\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Raizd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vinicius.loreto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
