@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Raizd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raizd\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -33,4 +33,4 @@ export var validacao_parametro = function(peso, altura)
 }
 
 
-export default {status_imc, imc_pessoa, validacao_parametro}  
+export default {status_imc, imc_pessoa, validacao_parametro}

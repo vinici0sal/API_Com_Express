@@ -1,19 +1,13 @@
-import exp from 'express'
-import { imc_pessoa, status_imc, validacao_parametro } from './funcao.js';
+import exp, { json } from 'express'
+import { list } from './new.js';
+import qrcode from 'qrcode-terminal'
 
 const app = exp();
 
 var data = new Date();
     app.get('/', (req, res) => { 
-
-        var peso = req.query.peso
-        var altura = req.query.altura
-
-        var imc = imc_pessoa(peso, altura)
-        var status = status_imc(imc)
-        var validar = validacao_parametro(peso, altura)
         
-        console.log({imc : imc}, {status : status}, {validar : validar})
+        res.json(list)
 
     })
     
