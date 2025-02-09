@@ -11,5 +11,6 @@ namespace ConsoleApp1
     {
         public string Nome {get; set;}
         public string Banco{get; set;}
+        public string Chave_pix {get; set;}
     }
 }

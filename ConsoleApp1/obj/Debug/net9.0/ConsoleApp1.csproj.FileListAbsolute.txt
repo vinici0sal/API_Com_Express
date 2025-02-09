@@ -13,3 +13,6 @@ C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\obj\Debug\net9.0\refin
 C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\bin\Debug\net9.0\RestSharp.dll
+C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Raizd\Downloads\POO2\API_Com_Express\ConsoleApp1\obj\Debug\net9.0\ConsoleA.CB28C8CC.Up2Date

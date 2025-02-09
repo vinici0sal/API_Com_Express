@@ -1,13 +1,10 @@
-const Data = new Date();
+let altura;
+let peso;
 
-export var funcao_lista = function(){
-    let lista_frase = [
 
-    ]
+export var Soma_IMC = function(peso, altura){
+    let Imc = peso / (altura*altura)
+    return Imc
 }
 
-export var funcao_objeto = function(){
-    let obj = {
-        
-    }    
-}
+export default Soma_IMC

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ex5ECWkc2X0=",
+  "dgSpecHash": "kaWZ67/Ldlc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinicius.loreto\\OneDrive - CARAJAS HOME CENTER\\Documentos\\GitHub\\API_Com_Express\\Teste_api_C#\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Raizd\\Downloads\\POO2\\API_Com_Express\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raizd\\.nuget\\packages\\restsharp\\112.1.1-alpha.0.4\\restsharp.112.1.1-alpha.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

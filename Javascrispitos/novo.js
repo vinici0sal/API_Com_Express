@@ -1,19 +1,20 @@
-import exp, { json } from 'express'
-import { list } from './new.js';
-import qrcode from 'qrcode-terminal'
+import exp from 'express'
+import Soma_IMC from './new.js'
+const data = new Date()
 
 const app = exp();
 
-var data = new Date();
-    app.get('/', (req, res) => { 
-        
-        res.json(list)
+app.get('/', (req, res) =>{
 
-    })
-    
-    app.listen(8080, () => {
-        let min = data.getMinutes()
-        let date = data.getHours() + ':' + min; 
-        console.log(`Servidor conectado as ${date}` )
-        }
-    )
+    let peso = req.query.peso;
+    let altura = req.query.altura; 
+
+    var Imc = Soma_IMC(peso, altura);
+
+    res.send({IMC : Imc})
+
+})
+
+app.listen(8080, () =>
+    console.log(`Servidor iniciado as ${data.getHours()}:${data.getMinutes()}`)
+)
