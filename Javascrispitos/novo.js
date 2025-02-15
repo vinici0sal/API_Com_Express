@@ -1,18 +1,20 @@
 import exp from 'express'
-import Soma_IMC from './new.js'
+import colecao_uf from './funcao.js';
 const data = new Date()
 
 const app = exp();
 
-app.get('/', (req, res) =>{
+app.get('/ufs', (req, res) =>{
 
-    let peso = req.query.peso;
-    let altura = req.query.altura; 
+    colecao_uf(colecao_uf)
+});
 
-    var Imc = Soma_IMC(peso, altura);
+app.get('/ufs/:iduf', (req, res) => {
+    const idUF = parseInt(req.params.iduf);
+    const uf = colecao_uf.find(u => u.id === idUF);
 
-    res.send({IMC : Imc})
-
+    console.log({"Código de status" : res.statusCode})
+    res.json(uf)
 })
 
 app.listen(8080, () =>

@@ -8,10 +8,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            double altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            int peso = int.Parse(Console.ReadLine());
 
-            var cliente = new RestClient($"http://localhost:8080/?peso={peso}&altura={altura}");
+            var cliente = new RestClient($"http://localhost:8080/ufs/1");
             var requests = new RestRequest("", Method.Get);
 
             var response = cliente.Execute(requests);
