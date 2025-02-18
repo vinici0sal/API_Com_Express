@@ -14,7 +14,7 @@ app.get('/ufs/:iduf', (req, res) => {
     const uf = colecao_uf.find(u => u.id === idUF);
 
     console.log({"Código de status" : res.statusCode})
-    res.json(uf)
+    console.log(uf)
 })
 
 app.listen(8080, () =>
