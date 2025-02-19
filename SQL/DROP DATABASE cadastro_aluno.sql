@@ -1,5 +1,2 @@
-CREATE DATABASE cadastro_aluno;
-
-CREATE TABLE Aluno({
-    
-})
+USE database cadastro_aluno;
+CREATE TABLE Aluno;
