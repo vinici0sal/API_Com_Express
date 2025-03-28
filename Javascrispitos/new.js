@@ -1,10 +1,9 @@
-let altura;
-let peso;
+let indice = 13
+let k = 0
+let soma = 0
 
-
-export var Soma_IMC = function(peso, altura){
-    let Imc = peso / (altura*altura)
-    return Imc
+while(k < indice){
+    k += 1
+    soma = soma + k
+    console.log(soma)
 }
-
-export default Soma_IMC

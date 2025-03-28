@@ -6,15 +6,16 @@ const app = exp();
 
 app.get('/ufs', (req, res) =>{
 
-    colecao_uf(colecao_uf)
+    res.json(colecao_uf)
 });
 
 app.get('/ufs/:iduf', (req, res) => {
-    const idUF = parseInt(req.params.iduf);
-    const uf = colecao_uf.find(u => u.id === idUF);
 
-    console.log({"Código de status" : res.statusCode})
-    console.log(uf)
+    const idUF = parseInt(req.params.iduf);
+    const uf = colecao_uf.find(u => u.id === idUF)
+    
+    res.json(uf)
+    console.log({'resposta' : res.statusCode})
 })
 
 app.listen(8080, () =>
